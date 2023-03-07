@@ -74,6 +74,7 @@ function Book({ book, bookList }) {
           {book.author.name}
         </Text>
         <Rating rating={book.avgRating} />
+        <Text>Recommend</Text>
       </View>
     </View>
   );
